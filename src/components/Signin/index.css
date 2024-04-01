@@ -1,0 +1,85 @@
+.card-1{
+    background-color: #000000;
+}
+.login-container{
+    background-color: #F5F5F5;
+}
+.sign-in-text{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+
+}
+.button-group{
+    display: column;
+}
+.sign-in-btn{
+    width: 180px;
+    height: 30px;
+    top: 354px;
+    left: 832px;
+}
+.form-container{
+    width: 385px;
+    height: 356px;
+    top: 409px;
+    left: 832px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+.label{
+    font-family: Lato;
+   font-size: 16px;
+   font-weight: 400;
+   text-align: left;
+}
+.text-1{
+    width: 325px;
+height: 40px;
+top: 468px;
+left: 862px;
+gap: 0px;
+opacity: 0px;
+
+}
+.forgot-txt{
+    color: #346BD4;
+    font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: left;
+
+}
+.btn-signin{
+    background-color: #000000;
+    color: #fff;
+    width: 325px;
+height: 40px;
+top: 656px;
+left: 862px;
+gap: 0px;
+opacity: 0px;
+
+}
+.span-txt{
+    color: #346BD4;
+}
+
+@media screen and (min-width: 768pxpx) {
+    .card-1{
+        height: 1024px;
+        width: 588px;
+    }
+    .login-container{
+        height: 1024px;
+        width: 854px;
+    }
+    .button-group{
+        display: flex;
+    }
+}
+

@@ -1,0 +1,87 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+}
+
+.sidebar{
+    background-color: #000000;
+    width: 1100px;
+    height: 1024px;
+}
+.sidebar-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.board-heading{
+    color: #ffffff;
+font-size: 36px;
+font-weight: 700;
+text-align: left;
+
+}
+.top-nav{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    width: 180px;
+    height: 30px;
+    top: 60px;
+    border: 1px solid #858585
+}
+.notification{
+    width: 18px;
+    height: 20px;
+}
+.user-img{
+    height: 30px;
+    width: 30px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1{
+    background-color: #DDEFE0;
+    height: 120px;
+    width: 221px;
+}
+.card2{
+    background-color: #f4ecdd;
+    height: 120px;
+    width: 221px;
+}
+.card3{
+    background-color: #EFDADA;
+    height: 120px;
+    width: 221px;
+}
+.card4{
+    background-color: #DEE0EF;
+    height: 120px;
+    width: 221px;
+}
+.top-product{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 600;
+}
+.option-txt{
+    color: #858585;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768pxpx) {
+    .home{
+        flex-direction: row;
+    }
+    .sidebar{
+        width: 288px;
+    }
+}
